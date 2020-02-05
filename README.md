@@ -29,16 +29,15 @@ PROCEDURE :
 2 - Créer votre fichier de conf pour Logstash ( voir INFOS ELK )
 
 3 - Lancer Logstash avec la conf de votre choix :
-	cd /usr/share/logstash
-	bin/logstash -f /etc/logstash/conf.d/<Votre_Fichier>.conf
+	1- cd /usr/share/logstash
+	2- bin/logstash -f /etc/logstash/conf.d/<Votre_Fichier>.conf
 
 4 - Attendre le message de validation (exemple):
-	[INFO ] 2020-02-04 11:34:21.328 [[main]<tcp] tcp - Starting tcp input listener {:address=>"0.0.0.0:601", :ssl_enable=>"false"}
-	[INFO ] 2020-02-04 11:34:21.344 [[main]-pipeline-manager] javapipeline - Pipeline started {"pipeline.id"=>"main"}
-	[INFO ] 2020-02-04 11:34:21.572 [Agent thread] agent - Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
-	[INFO ] 2020-02-04 11:34:21.706 [[main]<udp] udp - Starting UDP listener {:address=>"0.0.0.0:601"}
-	[INFO ] 2020-02-04 11:34:21.838 [[main]<udp] udp - UDP listener started {:address=>"0.0.0.0:601", :receive_buffer_bytes=>"106496", :queue_size=>"2000"}
-	[INFO ] 2020-02-04 11:34:22.111 [Api Webserver] agent - Successfully started Logstash API endpoint {:port=>9600}
+	[INFO ] Starting tcp input listener 
+	[INFO ]  Pipeline started 
+	[INFO ] Pipelines running
+	[INFO ] Starting UDP listener
+	[INFO ] UDP listener started
 
 5 - DEBUG (En cas d'echec)
 	-	journalctl -xe
