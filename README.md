@@ -2,6 +2,7 @@
 Procédure d'installation de configuration de la suite ELK pour la gestion de logs d'équipements Stormshield
 
 	//---/!\---// LA SUITE LOGICIEL DOIT ETRE INSTALLEE PAR LA METHODE RPM POUR CENTOS //---/!\---//
+	
 		https://www.elastic.co/guide/en/elastic-stack/current/installing-elastic-stack.html
 		
 	//---/!\---// PROCEDURE VALABLE POUR LA VERSION 7.5 DE LA SUITE LOGICIELLE //---/!\---//
