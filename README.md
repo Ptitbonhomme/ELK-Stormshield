@@ -51,7 +51,7 @@
 	4- [INFO ] Starting UDP listener
 	5- [INFO ] UDP listener started
 
-### 5 - DEBUG (En cas d'echec): 
+### 5 - DEBUG : 
 
 	-	journalctl -xe
 	-	tcpdump
@@ -65,7 +65,7 @@
 		3- AJOUTER DANS LE FICHIER : /usr/share/elasticsearch/jdk/lib
 		4- ldconfig
 		
-## UPGRADE DU TRAITEMENT DES LOGS
+## UPGRADE DU TRAITEMENT DES LOGS :
 
 * Ajouter la partie FILTRE au fichier logstash.conf
 	- Ajouter la géolocalisation des IPs
