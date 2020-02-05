@@ -68,4 +68,4 @@
 ## UPGRADE DU TRAITEMENT DES LOGS
 
 * Ajouter la partie FILTRE au fichier logstash.conf
-	Ajouter la géolocalisation des IPs
+	- Ajouter la géolocalisation des IPs
