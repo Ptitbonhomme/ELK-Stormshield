@@ -9,6 +9,8 @@
 
 * Mes fichiers de conf sont inspirés de ce guide :
 	https://blog.ineat-group.com/2019/03/monitoring-comment-tirer-profit-des-logs-de-votre-pare-feu-avec-elassandra/
+	
+	- Sur Kibana il vous faudra créer l'index pattern : firewall_*
 
 ## INFOS VM :
 
