@@ -34,24 +34,25 @@
 
 ## PROCEDURE :
 
-### 1 - Vérifier que toute la suite est fonctionnelle (SAUF LOGSTASH): systemctl status ...
+### 1 - Créer et éditer les différents fichiers de configuration
 
-### 2 - Créer votre fichier de conf pour Logstash ( voir INFOS ELK )
+* Mis a disposition ci-dessus
+* Le port d'écoute syslog-ng peut varier (UDP 514 / TCP 601) en fonction de la configuration syslog votre équipement stormshield
+* Redemarrez tous les services dont la configuration a été modifiée
+
+### 2 - Vérifier que toute la suite est fonctionnelle : systemctl status ...
+
+* Si Logstash ne démarre pas voir partie [DEBUG] ci-dessous
+* Si un autre logiciel ne démarre pas, il vous faut revoir vos fichiers de configuration
 
 ### 3 - Lancer Logstash avec la conf de votre choix :
+
+* CETTE PARTIE N'EST PAS NECESSAIRE SI VOUS N'AVEZ QU'UN SEUL FICHIER DE CONF
 
 	1- cd /usr/share/logstash
 	2- bin/logstash -f /etc/logstash/conf.d/<Votre_Fichier>.conf
 
-### 4 - Attendre le message de validation (exemple):
-
-	1- [INFO ] Starting TCP input listener 
-	2- [INFO ] Pipeline started 
-	3- [INFO ] Pipelines running
-	4- [INFO ] Starting UDP listener
-	5- [INFO ] UDP listener started
-
-### 5 - DEBUG : 
+### 4 - DEBUG : 
 
 	-	journalctl -xe
 	-	tcpdump
