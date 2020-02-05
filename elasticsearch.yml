@@ -1,0 +1,2 @@
+# Allow localhost cross-origin requests.
+http.cors.enabled: true
