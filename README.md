@@ -70,3 +70,4 @@
 
 * Ajouter la partie FILTRE au fichier logstash.conf
 	- Ajouter la géolocalisation des IPs
+* Sécuriser le trafic des logs
