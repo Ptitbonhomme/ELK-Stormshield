@@ -13,7 +13,7 @@
 ## INFOS VM :
 
 	* CentOS 7 x64
-	* 4GB de ram
+	* 6GB de ram
 	* 2cores process
 	* Suite utilisée : syslog-ng --> filebeat --> logstash --> elasticsearch --> kibana
 
