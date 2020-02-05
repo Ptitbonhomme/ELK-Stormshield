@@ -14,11 +14,11 @@
 
 ## INFOS VM :
 
-	* CentOS 7 x64
-	* 6GB de ram
-	* 2cores process
-	* Disque de 60GB minimum 
-	* Suite utilisée : syslog-ng --> filebeat --> logstash --> elasticsearch --> kibana
+* CentOS 7 x64
+* 6GB de ram
+* 2cores process
+* Disque de 60GB minimum 
+* Suite utilisée : syslog-ng --> filebeat --> logstash --> elasticsearch --> kibana
 
 ## INFOS ELK :
 
