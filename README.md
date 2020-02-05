@@ -12,9 +12,9 @@ CentOS 7 x64
 
 INFOS ELK :
 
-fichiers de conf yml :			/etc/<logstash ou kibana ou elasticsearch>/
-Logstash fichiers de conf :		/etc/logstash/conf.d/*.conf
-Logstash dossier bin/logstash :		/usr/share/logstash/
+	1- fichiers de conf yml :			/etc/<logstash ou kibana ou elasticsearch>/
+	2- Logstash fichiers de conf :		/etc/logstash/conf.d/*.conf
+	3- Logstash dossier bin/logstash :		/usr/share/logstash/
 
 INFOS JAVA :
 
@@ -34,13 +34,15 @@ PROCEDURE :
 	2- bin/logstash -f /etc/logstash/conf.d/<Votre_Fichier>.conf
 
 4 - Attendre le message de validation (exemple):
-	[INFO ] Starting tcp input listener 
-	[INFO ]  Pipeline started 
-	[INFO ] Pipelines running
-	[INFO ] Starting UDP listener
-	[INFO ] UDP listener started
 
-5 - DEBUG (En cas d'echec)
+	1- [INFO ] Starting tcp input listener 
+	2- [INFO ]  Pipeline started 
+	3- [INFO ] Pipelines running
+	4- [INFO ] Starting UDP listener
+	5- [INFO ] UDP listener started
+
+5 - DEBUG (En cas d'echec): 
+
 	-	journalctl -xe
 	-	tcpdump
 	-	netstast -tnlp
