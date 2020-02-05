@@ -7,6 +7,9 @@
 		
 #### //---/!\---// PROCEDURE VALABLE POUR LA VERSION 7.5 DE LA SUITE LOGICIELLE //---/!\---//
 
+* Mes fichiers de conf sont inspirés de ce guide :
+	https://blog.ineat-group.com/2019/03/monitoring-comment-tirer-profit-des-logs-de-votre-pare-feu-avec-elassandra/
+
 ## INFOS VM :
 
 	* CentOS 7 x64
