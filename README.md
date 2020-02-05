@@ -6,15 +6,15 @@ Procédure d'installation de configuration de la suite ELK pour la gestion de lo
 
 INFOS VM :
 
-CentOS 7 x64
-4GB de ram
-2cores process
+	1- CentOS 7 x64
+	2- 4GB de ram
+	3- 2cores process
 
 INFOS ELK :
 
-	1- fichiers de conf yml :			/etc/<logstash ou kibana ou elasticsearch>/
+	1- fichiers de conf yml :		/etc/<logstash ou kibana ou elasticsearch>/
 	2- Logstash fichiers de conf :		/etc/logstash/conf.d/*.conf
-	3- Logstash dossier bin/logstash :		/usr/share/logstash/
+	3- Logstash dossier bin/logstash :	/usr/share/logstash/
 
 INFOS JAVA :
 
