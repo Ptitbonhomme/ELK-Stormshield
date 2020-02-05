@@ -64,3 +64,8 @@
 		2- vim java.conf
 		3- AJOUTER DANS LE FICHIER : /usr/share/elasticsearch/jdk/lib
 		4- ldconfig
+		
+## UPGRADE DU TRAITEMENT DES LOGS
+
+	* Ajouter la partie FILTRE au fichier logstash.conf
+		Ajouter la géolocalisation des IPs
