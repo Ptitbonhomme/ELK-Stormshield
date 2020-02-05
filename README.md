@@ -2,7 +2,13 @@
 Procédure d'installation de configuration de la suite ELK pour la gestion de logs d'équipements Stormshield
 
 //---/!\---// LA SUITE LOGICIEL DOIT ETRE INSTALLEE PAR LA METHODE RPM POUR CENTOS //---/!\---//
-//---/!\---// CETTE PROCEDURE A ETE MISE EN PLACE POUR LA VERSION 7.5 DE LA SUITE LOGICIELLE //---/!\---//
+//---/!\---// PROCEDURE VALABLE POUR LA VERSION 7.5 DE LA SUITE LOGICIELLE //---/!\---//
+
+INFOS VM :
+
+CentOS 7 x64
+4GB de ram
+2cores process
 
 INFOS ELK :
 
@@ -12,7 +18,7 @@ Logstash dossier bin/logstash :		/usr/share/logstash/
 
 INFOS JAVA :
 
-java -version :				OpenJDK-11	(LA VERSION 8 DE JAVA NE DISPOSE PAS DES REPERTOIRES NECESSAIRES)
+java -version :				OpenJDK-11
 java dossier :				/usr/lib/jvm/
 
 
