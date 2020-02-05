@@ -18,8 +18,8 @@ INFOS ELK :
 
 INFOS JAVA :
 
-java -version :				OpenJDK-11
-java dossier :				/usr/lib/jvm/
+	- java -version :	OpenJDK-11
+	- java dossier :	/usr/lib/jvm/
 
 
 PROCEDURE :
