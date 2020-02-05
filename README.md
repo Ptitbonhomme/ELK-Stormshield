@@ -42,8 +42,8 @@
 
 ### 4 - Attendre le message de validation (exemple):
 
-	1- [INFO ] Starting tcp input listener 
-	2- [INFO ]  Pipeline started 
+	1- [INFO ] Starting TCP input listener 
+	2- [INFO ] Pipeline started 
 	3- [INFO ] Pipelines running
 	4- [INFO ] Starting UDP listener
 	5- [INFO ] UDP listener started
