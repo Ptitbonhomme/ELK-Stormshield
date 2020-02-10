@@ -15,9 +15,9 @@
 ## INFOS VM :
 
 * CentOS 7 x64
-* 6GB de ram
-* 2cores process
-* Disque de 60GB minimum 
+* 8GB de ram
+* 6cores process
+* Disque de 100GB minimum 
 * Suite utilisée : syslog-ng --> filebeat --> logstash --> elasticsearch --> kibana
 
 ## INFOS ELK :
@@ -51,8 +51,11 @@
 
 	1- cd /usr/share/logstash
 	2- bin/logstash -f /etc/logstash/conf.d/<Votre_Fichier>.conf
+### 4 - Chiffrement des flux de logs et protection compte utilisateur
 
-### 4 - DEBUG : 
+https://www.elastic.co/fr/blog/configuring-ssl-tls-and-https-to-secure-elasticsearch-kibana-beats-and-logstash#enable-ts-logstash
+
+### 5 - DEBUG : 
 
 	-	journalctl -xe
 	-	tcpdump
